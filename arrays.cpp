@@ -12,7 +12,7 @@ void main()
     int arr[SIZE] = {3, 5, 8};
     //arr[2] = 123; // на заппись 
     //cout << arr[2] << endl; // на чтение 
-    cout<<"fgh: "
+    cout<<"Введите значение : "
 ;    for (int i = 0; i < SIZE; i++)
     {
         cin >> arr[i];
@@ -34,7 +34,7 @@ void main()
     {
         sum += arr[i];
     }
-    cout << "sdsd " << sum << endl;
+    cout << "Общая суммв  " << sum << endl;
     cout << "средне арифметическое " << (double)sum/SIZE << endl;
 
     int min, max;
