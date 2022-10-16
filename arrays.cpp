@@ -34,7 +34,7 @@ void main()
     {
         sum += arr[i];
     }
-    cout << "Общая суммв  " << sum << endl;
+    cout << "Общая сумма  " << sum << endl;
     cout << "средне арифметическое " << (double)sum/SIZE << endl;
 
     int min, max;
